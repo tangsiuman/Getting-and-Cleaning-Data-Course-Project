@@ -71,7 +71,7 @@ fBodyBodyGyroMag-std()
 fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std() 
 
-## Activities Labl
+## Activities Lable
 WALKING (value 1)
 WALKING_UPSTAIRS (value 2)
 WALKING_DOWNSTAIRS (value 3)

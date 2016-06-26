@@ -3,7 +3,7 @@
 The R script, run_analysis.R, does the following:
 
 1.  Load the required library, plyr
-2.  Load the acitivity into "activity_lables"
+2.  Load the acitivity into activity_labels
 3.  Load the features data and extract the required columns list
 4.  Load the training and test datasets into following variables
     - subject_train, x_train, y_train

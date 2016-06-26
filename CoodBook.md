@@ -1,11 +1,9 @@
 ## ID Fields
 
 subject - The participant ("subject") ID
-activity_labels - The label of the activity performed when the corresponding measurements were taken
 
 
 ## Extracted Feature Fields for analysis, for all mean and std columns from data set
-
 tBodyAcc-mean()-X 
 tBodyAcc-mean()-Y 
 tBodyAcc-mean()-Z 
@@ -73,7 +71,7 @@ fBodyBodyGyroMag-std()
 fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std() 
 
-## Activities
+## Activities Labl
 WALKING (value 1)
 WALKING_UPSTAIRS (value 2)
 WALKING_DOWNSTAIRS (value 3)
@@ -87,11 +85,15 @@ activity_labels
 features
 f_mean_sd
 featuresname
+
+### Following working variables used to store data from source files
 subject_train
 x_train
 y_train
 subject_test
 x_test
 y_test
+
+### Combine the dataset and output
 all_data
 avg_data

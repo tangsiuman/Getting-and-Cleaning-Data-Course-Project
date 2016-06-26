@@ -11,6 +11,6 @@ The R script, run_analysis.R, does the following:
 5.  Replace actvitiy labels in y_train, y_test
 6.  Filter required columns for analysis in x_train, x_test
 7.  Combine the train and test filter datasets into all_data
-8.  Assign the column names
+8.  Assign labls to all_data
 9.  Use ddply() to calculate the means of the analysis columns
 10.  Write the result to tidy.txt
